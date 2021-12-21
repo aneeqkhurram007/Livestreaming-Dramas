@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("./Images/login.jpg");
+  
+    /* Control the height of the image */
+    min-height: 500px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    margin:60px 450px 60px 60px;
+    max-width: 300px;
+    padding: 15px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 19px;
+    margin: 10px 10px 10px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+   #email,#password {
+       background-color:grey;
+   }
+ 
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .button:hover {
+    opacity: 1;
+  }

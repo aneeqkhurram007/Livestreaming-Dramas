@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "axios": "^0.24.0",
+    "concurrently": "^6.4.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "livestreamingdramas": "cd livestreamingdramas && npm start",
+    "dev": "concurrently -n 'server,livestreamingdramas' -c 'red,green' \"nodemon server.js\" \"npm run livestreamingdramas\""
+  },
+  "name": "semesterproject",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

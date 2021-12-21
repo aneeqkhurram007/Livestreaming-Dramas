@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  background-image: url("./Images/signup.png");
+  background-repeat: no-repeat;
+}
+form {
+  display: inline-block;
+}
+label{
+  color: black;
+}
+  

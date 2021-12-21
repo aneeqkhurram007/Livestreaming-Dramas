@@ -1,0 +1,10 @@
+.jumbotron-fluid,.jumbotoron{
+    align-items: center;
+    padding: 50px;
+    margin-right: 80;
+    background-image: url(./Images/contact.jpg);
+    
+}
+a{
+    padding: 60px;
+}
