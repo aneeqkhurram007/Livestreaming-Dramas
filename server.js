@@ -12,9 +12,7 @@ const routes = require("./routes/api");
 //the 1st one is coonection is going to be in your server or anywhere in world
 //2 is option you can pass
 console.clear();
-mongose.connect(
-  "mongodb+srv://aneeqkhurram007:MastiNaKar&951@cluster0.codqo.mongodb.net/SemesterProject?retryWrites=true&w=majority"
-);
+mongose.connect("mongodb://localhost:27017/SemesterProject");
 //if succesful otherwise no printed
 mongose.connection.on("connected", () => {
   console.log("Mongose is connected");
