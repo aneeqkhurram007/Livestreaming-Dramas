@@ -50,7 +50,7 @@ const Login = () => {
         data: payload,
       }).then((res) => {
         alert(res.data.message);
-        if (res.data.message === "Login Successful") history.replace("/");
+        if (res.data.message === "Login Successful") history.replace("/dramas");
       });
     }
   };

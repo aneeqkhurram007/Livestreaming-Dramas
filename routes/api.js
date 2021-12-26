@@ -29,6 +29,7 @@ router.post("/login", (req, res) => {
     if (err) console.log("Error Found");
     if (user) {
       if (user.password == password) {
+        console.log(user);
         res.json({
           message: "Login Successful",
         });
